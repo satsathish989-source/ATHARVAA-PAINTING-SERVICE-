@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#172b4d">
+  <meta name="description" content="Atharvaa Painting Services — professional painting services for homes and businesses.">
+  <title>Atharvaa Painting Services | Professional Painting</title>
+  <style>
+    :root{--navy:#172b4d;--blue:#2864a8;--gold:#e6ad45;--ink:#202a38;--muted:#667085;--paper:#f6f8fb;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}
+    a{color:inherit;text-decoration:none}.container{width:min(1120px,90%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e8edf3}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.5px;color:var(--navy)}
+    .logo-mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--navy));display:grid;place-items:center;color:#fff;font-size:19px}
+    .brand small{display:block;font-size:10px;letter-spacing:2px;color:var(--gold);font-weight:700}
+    nav{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:700;color:#455468}
+    .call{background:var(--gold);color:#172b4d;padding:11px 17px;border-radius:7px;font-weight:800}
+    .hero{background:linear-gradient(115deg,rgba(13,31,57,.94),rgba(26,65,105,.82)),linear-gradient(45deg,#b6c7d8,#e7edf4);color:#fff;padding:100px 0 95px}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:50px}
+    .eyebrow{color:#f2c66f;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+    h1{font-size:clamp(38px,5vw,62px);line-height:1.08;margin:15px 0 20px;letter-spacing:-1.5px}
+    .hero p{max-width:570px;color:#e3eaf3;font-size:18px}
+    .actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-block;padding:13px 20px;border-radius:7px;font-weight:800}
+    .btn-gold{background:var(--gold);color:var(--navy)}.btn-outline{border:1px solid #c7d3e2;color:#fff}
+    .hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:28px;border-radius:18px;backdrop-filter:blur(8px)}
+    .paint-icon{height:190px;border-radius:13px;background:linear-gradient(135deg,#f0c36a 0 33%,#dce7ef 33% 66%,#4d83b7 66%);position:relative;overflow:hidden}
+    .paint-icon:after{content:"";position:absolute;width:130%;height:55px;background:rgba(255,255,255,.45);transform:rotate(-28deg);top:65px;left:-15%}
+    .hero-card h3{margin:20px 0 6px}.hero-card p{font-size:14px;margin:0}
+    section{padding:78px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}
+    .section-head .eyebrow{color:var(--blue)}h2{font-size:clamp(28px,3.5vw,40px);line-height:1.2;color:var(--navy);margin:9px 0 12px}
+    .section-head p{color:var(--muted);margin:0}
+    .services{background:var(--paper)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;padding:27px;border-radius:13px;border:1px solid #e8edf3;box-shadow:0 8px 28px rgba(23,43,77,.05)}
+    .card .symbol{width:46px;height:46px;border-radius:12px;background:#edf4fb;color:var(--blue);display:grid;place-items:center;font-size:22px}
+    .card h3{color:var(--navy);margin:17px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+    .about-panel{background:linear-gradient(140deg,#e8eff7,#f8f4e9);padding:35px;border-radius:18px;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end}
+    .about-panel strong{font-size:30px;color:var(--navy)}.about-panel span{color:var(--muted)}
+    .about-copy p{color:var(--muted)}.checks{padding:0;list-style:none}.checks li{margin:10px 0}.checks li:before{content:"✓";color:#23845b;font-weight:900;margin-right:10px}
+    .cta{background:var(--navy);color:#fff;text-align:center}.cta h2{color:#fff}.cta p{color:#d4deeb}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-box{background:#fff;border:1px solid #e7edf3;border-radius:13px;padding:26px}
+    .contact-box h3{margin-top:0;color:var(--navy)}.contact-line{margin:15px 0;color:var(--muted)}.contact-line b{display:block;color:var(--ink)}
+    footer{background:#101f36;color:#c7d2e0;padding:25px 0;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.nav{padding:14px 0;align-items:flex-start;flex-direction:column}nav{gap:13px;flex-wrap:wrap;font-size:13px}.hero{padding:70px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero-card{max-width:460px}.section{padding:60px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="logo-mark">A</span><span>ATHARVAA PAINTING<small>SERVICES</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="call" href="tel:8248198595">Call: 8248198595</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">A fresh look starts here</div>
+        <h1>Bring your walls to life with a perfect finish.</h1>
+        <p>Atharvaa Painting Services helps refresh and transform your spaces with careful workmanship, thoughtful colour choices and a professional finish.</p>
+        <div class="actions"><a class="btn btn-gold" href="tel:8248198595">Call Now</a><a class="btn btn-outline" href="#services">Explore Services</a></div>
+      </div>
+      <div class="hero-card">
+        <div class="paint-icon" aria-hidden="true"></div>
+        <h3>Care in every coat.</h3>
+        <p>Painting solutions for spaces that feel brighter, cleaner and more welcoming.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">What we do</div><h2>Painting services for your space</h2><p>From a simple refresh to a complete makeover, get in touch to discuss the right approach for your property.</p></div>
+      <div class="cards">
+        <article class="card"><div class="symbol">⌂</div><h3>Interior Painting</h3><p>Give your rooms a refreshed look with neat, considered interior painting.</p></article>
+        <article class="card"><div class="symbol">▤</div><h3>Exterior Painting</h3><p>Refresh exterior walls and improve the look of your property's outdoor spaces.</p></article>
+        <article class="card"><div class="symbol">✦</div><h3>Colour Refresh</h3><p>Update your space with a new colour direction and a clean, consistent finish.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-panel"><strong>ATHARVAA<br>PAINTING SERVICES</strong><span>Professional painting for homes and spaces.</span></div>
+      <div class="about-copy"><div class="eyebrow">About us</div><h2>A better finish makes all the difference.</h2><p>At Atharvaa Painting Services, we believe a well-painted space can change the way it looks and feels. We focus on the details that matter and aim to make your painting project straightforward from the first conversation to the final finish.</p><ul class="checks"><li>Professional, attentive workmanship</li><li>Careful preparation and clean finishing</li><li>Friendly service and clear communication</li></ul><a class="btn btn-gold" style="background:var(--navy);color:#fff" href="#contact">Talk to us</a></div>
+    </div>
+  </section>
+
+  <section class="cta"><div class="container"><div class="eyebrow">Let's get started</div><h2>Ready to refresh your space?</h2><p>Call Atharvaa Painting Services to discuss your painting requirements.</p><a class="btn btn-gold" href="tel:8248198595">Call 8248198595</a></div></section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Contact</div><h2>Let's talk about your project</h2><p>Reach out for enquiries and painting service details.</p></div>
+      <div class="contact-grid">
+        <div class="contact-box"><h3>Contact details</h3><div class="contact-line"><b>Phone</b><a href="tel:8248198595">8248198595</a></div><div class="contact-line"><b>Address</b>18/37, 84th Street, Ashok Nagar</div><div class="contact-line"><b>Business</b>Atharvaa Painting Services</div></div>
+        <div class="contact-box"><h3>Send an enquiry</h3><p class="contact-line">Call us directly and tell us about your home or business painting needs.</p><a class="btn btn-gold" href="https://wa.me/918248198595?text=Hello%20Atharvaa%20Painting%20Services%2C%20I%20would%20like%20to%20enquire%20about%20your%20painting%20services." target="_blank" rel="noopener">WhatsApp Us</a><p class="contact-line" style="font-size:12px">WhatsApp opens a chat with the business number listed above.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="container footer-row"><span>© <span id="year">2026</span> Atharvaa Painting Services. All rights reserved.</span><span>Professional Painting Services</span></div></footer>
+</body>
+</html>
